@@ -1,0 +1,29 @@
+Params:
+  timeout: 2
+  window_size: 30
+  
+Topics:
+  /chatter:
+    type: String
+    target_freq: 10
+    max_deviation: 0.1
+
+  /chatter2:
+    type: String
+    target_freq: 20
+    max_deviation: 0.1
+
+  /chatter3:
+    type: String
+    target_freq: 30
+    max_deviation: 0.1
+
+Nodes:
+  /talker:
+    status: 0
+
+  /talker2:
+    status: 0
+  
+  /talker3:
+    status: 0
